@@ -15,6 +15,8 @@ def detect_labels(photo, bucket):
     return labels_res
 
 def lambda_handler(event, context):
+    
+    # updating code to see 
     # TODO implement
     print(event)
     bucket = "picturesb2"
