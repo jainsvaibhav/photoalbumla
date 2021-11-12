@@ -3,6 +3,7 @@ import boto3
 import requests
 
 def detect_labels(photo, bucket):
+    # test codepipeline demo
     #test upload2
     labels_res = []
     client=boto3.client('rekognition')
