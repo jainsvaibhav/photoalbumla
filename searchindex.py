@@ -31,7 +31,7 @@ def dispatch(intent_request):
     raise Exception('Intent with name ' + intent_name + ' not supported')
 
 def search_intent(labels):
-
+    #updated code
     
     url = 'https://search-photosindex-nhstcgewxc644dwhjtcaqel3zi.us-west-2.es.amazonaws.com/photos/_doc/_search?q='
     
